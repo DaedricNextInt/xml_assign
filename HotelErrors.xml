@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--Error # 1: Root Element is Hotel instead of Hotels.-->
+<Hotel>
+	<!--Listing 10 Hotels-->
+
+
+	<Hotel  Rating="3.9">
+		<Name>La Quinta Inn and Suites by Wyndham</Name>
+		<Phone>520-413-5211</Phone>
+		<Phone>520-518-7566</Phone>
+		<Address Number="44575" NearestAirport="Phoenix Sky Harbor">
+			<Street>MLK Jr Blvd</Street>
+			<City>Maricopa</City>
+			<Zip>85138</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Error # 2: A required Attribute is missing -->
+
+	<Hotel Rating="4.5">
+		<Name> Marriott Tempe at the Buttes</Name>
+		<Phone>480-968-3451</Phone>
+		<Phone>888-236-2427</Phone>
+		<Address NearestAirport="Phoenix Sky Harbor">
+			<Street>W Westcourt Way</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85282</Zip>
+		</Address>
+	</Hotel>
+
+	<!--Error #3: A Phone element is missing-->
+	<Hotel Rating="4.1">
+		<Name>Hilton Garden Inn Phoenix Airport North</Name>
+		
+		<Address Number="3838" NearestAirport="Phoenix Sky Harbor">
+			<Street>E Van Buren St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85008</Zip>
+		</Address>
+	</Hotel>
+
+
+	<!--Error #4: An Address elect has no closing tag-->
+	<Hotel Rating="4.3">
+		<Name>Hyatt Place Tempe Phoenix Airport</Name>
+		<Phone>480-377-5000</Phone>
+		<Phone>888-492-8847</Phone>
+		<Address Number="1413" NearestAirport="Phoenix Sky Harbor">
+			<Street>W Rio Salado Pkwy</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		
+	</Hotel>
+
+	<!--Error #5: Two Names are provided for one Hotel-->
+
+	<Hotel Rating="4.3">
+		<Name>Arizona Grand Resort and Spa</Name>
+		<Name>Arizona Grand Resort</Name>
+		<Phone>877-800-4888</Phone>
+		<Phone>602-438-9000</Phone>
+		<Address Number="8000" NearestAirport="Phoenix Sky Harbor">
+			<Street>South Arizona Grand E</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85044</Zip>
+		</Address>
+	</Hotel>
+
+
+	<Hotel Rating="4.0">
+		<Name>Sheraton Phoenix Airport Hotel</Name>
+		<Phone>480-967-6600</Phone>
+		<Phone>800-325-3535</Phone>
+		<Address Number="1600" NearestAirport="Phoenix Sky Harbor">
+			<Street>S 52nd St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.2">
+		<Name>Courtyard Phoenix Tempe Downtown</Name>
+		<Phone>480-966-2800</Phone>
+		<Address Number="1413" NearestAirport="Phoenix Sky Harbor">
+			<Street>S Ash Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.0">
+		<Name>Aloft Tempe</Name>
+		<Phone>480-621-3300</Phone>
+		<Address Number="951" NearestAirport="Phoenix Sky Harbor">
+			<Street>E Playa Del Norte Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85288</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.4">
+		<Name>Residence Inn Phoenix</Name>
+		<Phone>602-273-7222</Phone>
+		<Address Number="801" NearestAirport="Phoenix Sky Harbor">
+			<Street>N 44th St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85008</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.1">
+		<Name>Holiday Inn Express Phoenix</Name>
+		<Phone>602-453-9900</Phone>
+		<Phone>877-859-5095</Phone>
+		<Address Number="1101" NearestAirport="Phoenix Sky Harbor">
+			<Street>N 44th St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85008</Zip>
+		</Address>
+	</Hotel>
+
+
+</Hotel>
+
