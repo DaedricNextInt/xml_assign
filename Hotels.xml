@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <Hotels>
-	<!--Listing 10 Hotels-->
 
 
 	<Hotel  Rating="3.9">
@@ -125,4 +124,5 @@
 	
 
 </Hotels>
+
 
